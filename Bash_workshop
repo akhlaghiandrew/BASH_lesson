@@ -12,5 +12,11 @@ ls
 touch
 
 nano/for loop/declare a variabel  # if pressed for time cut this 
+#!/bin/bash
+variable="your name"
+for i in 1 2 3 4 5
+do
+  touch $i.txt
+done
 
 mv with wild card 
