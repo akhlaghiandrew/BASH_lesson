@@ -1,22 +1,30 @@
-history bash
+the GNU project and Linux are very cool
 
-pwd
-#file structures
-cd 
+print working directory, aka Where am I
+$ pwd
 
-mkdir 
-#no spaces, special characters, lower case, camel casing  
+change directory, aka moving around
+$ cd, cd -  
 
-ls
+make directory, put my stuff somewhere
+$ mkdir 
 
-touch
+#when naming stuff no spaces, special characters, lower case, camel casing  
 
-nano/for loop/declare a variabel  # if pressed for time cut this 
+#list, what is in a folder
+$ ls
+
+#open or update a file!
+$ touch file.txt
+
+nano/for loop/declare a variabel
 #!/bin/bash
 variable="your name"
 for i in 1 2 3 4 5
 do
   touch $i.txt
 done
+echo $variable
+
 
 mv with wild card 
