@@ -9,12 +9,12 @@ $ cd, cd -
 make directory, put my stuff somewhere
 $ mkdir 
 
-#when naming stuff no spaces, special characters, lower case, camel casing  
+when naming stuff no spaces, special characters, lower case, camel casing  
 
-#list, what is in a folder
+list, what is in a folder
 $ ls
 
-#open or update a file!
+open or update a file!
 $ touch file.txt
 
 nano/for loop/declare a variabel
@@ -25,6 +25,10 @@ do
   touch $i.txt
 done
 echo $variable
+
+make a program executable 
+chmod a+x FILENAME
+./FILENAME
 
 mv with wild card 
 
