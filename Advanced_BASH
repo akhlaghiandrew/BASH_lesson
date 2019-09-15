@@ -1,0 +1,3 @@
+rename -N ...01 's/[desired_REGEX_here]/$N.txt/' *
+#this will rename all files in folder matching the regex to a number, starting at one and counting up
+#rename must be installed first 
