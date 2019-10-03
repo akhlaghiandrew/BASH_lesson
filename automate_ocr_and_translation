@@ -1,0 +1,13 @@
+#!/bin/bash
+read -p "enter pic number: " number;
+tiff="IMG_$number.tiff"
+ocr="OCR_$number"
+tlate="trans_$number.txt"
+
+tesseract $tiff $ocr -l rus
+
+trans :eng file:///Users/andrewakhlaghi/Desktop/test_directory/$ocr.txt > $tlate
+
+#need to install tesseract and Translate Shell (formerly Google Translate CLI) 
+#this will only translate one page at a time, which is necessary 
+#Google translate and other online translators cap your access and will block your IP 
