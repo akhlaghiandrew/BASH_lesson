@@ -26,6 +26,13 @@ do
 done
 echo $variable
 
+erase files 
+#!/bin/bash
+for i in $(seq 4374 2 4420);
+do
+  rm "IMG_"$i"_ocr.txt"
+done
+
 make a program executable 
 chmod a+x FILENAME
 ./FILENAME
