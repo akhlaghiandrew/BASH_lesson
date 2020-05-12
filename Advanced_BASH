@@ -2,3 +2,7 @@ split -l 200
 rename -N ...01 's/[desired_REGEX_here]/$N.txt/' *
 #this will rename all files in folder matching the regex to a number, starting at one and counting up
 #rename must be installed first 
+
+
+sed -e :a -e '/-$/N; s/-\n//; ta' INPUT.txt>OUTPUT.txt
+#if a line ends in a '-' then remove it and join to the following line 
