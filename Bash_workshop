@@ -40,5 +40,5 @@ chmod a+x FILENAME
 mv with wild card 
 
 Get a web page and use regular expression 
-$ curl -o outputfile.txt "https://www.npr.org/2019/02/05/690345256/fact-check-trumps-state-of-the-union-address"
+$ ls -l | grep "Final" 
 $ grep "Trump" outputfile.txt > Trumpfile.txt
